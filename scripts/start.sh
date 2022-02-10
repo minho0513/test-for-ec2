@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ubuntu/im-sprint-practice-deploy/server
-authbind --deep pm2 start app.js
+cd /home/ubuntu/test-for-ec2/server
+authbind --deep pm2 start dist/main.js
