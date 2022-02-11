@@ -8,6 +8,9 @@ hooks:
   ApplicationStop:
     - location: scripts/stop.sh
       runas: root
+  BeforeInstall:
+    - location: scripts/before.sh
+      runas: root
   AfterInstall:
     - location: scripts/initialize.sh
       runas: root
