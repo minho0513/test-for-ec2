@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-if [ -d /var/www/release ]; then
-    sudo rm -rf /var/www/release
+if [ -d /home/ubuntu/test-for-ec2/ ]; then
+    rm -rf /home/ubuntu/test-for-ec2/
 fi
-sudo mkdir -vp /var/www/release
+mkdir -vp /home/ubuntu/test-for-ec2/
